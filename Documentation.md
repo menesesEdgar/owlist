@@ -23,3 +23,5 @@ npx shadcn-ui@latest add
 - badge
 - select
 - button
+- alert
+- collapsible
