@@ -33,7 +33,7 @@ const Menu = ({ icon: Icon, label }: MenuProps) => {
         )}
       >
         <IconBadge size="sm" icon={Icon} variant="filled" />
-        <h4 className="text-[12px] font-semibold mr-auto ">{label}</h4>
+        <h4 className="text-sm font-semibold mr-auto ">{label}</h4>
         <CollapsibleTrigger asChild>
           <Button variant="ghost" size="sm" className="p-0 hover:bg-secondary">
             {isOpenMenu ? (

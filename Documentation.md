@@ -25,3 +25,4 @@ npx shadcn-ui@latest add
 - button
 - alert
 - collapsible
+- checkbox

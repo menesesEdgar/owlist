@@ -46,7 +46,7 @@ const Sidebar = () => {
               <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            <AlertDescription className="text-[10px]">
+            <AlertDescription className="text-xs">
               Escuela preparatoria regional de casimiro castillo.
             </AlertDescription>
           </div>
@@ -82,13 +82,13 @@ const Sidebar = () => {
               <ChevronsUp className="bg-primary text-white h-12 w-12 rounded-full" />
             </div>
             <div className="flex flex-col justify-between gap-1">
-              <AlertTitle className="font-bold text-[14px]">
+              <AlertTitle className="font-bold text-md ">
                 Upgrade to PRO
               </AlertTitle>
               <AlertDescription className="text-[11px]">
                 Access to unlimited Organizations and groups.
               </AlertDescription>
-              <AlertDescription className="text-[10px] flex flex-row  items-center gap-2">
+              <AlertDescription className="text-xs flex flex-row  items-center gap-2">
                 See more <MoveRight />
               </AlertDescription>
             </div>
